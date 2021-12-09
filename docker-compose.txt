@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  flask:
+    image: wellshs/docker-memo:latest
+    ports:
+      - "80:5000"
+  mongo:
+    image: mongo:latest
+    volumes:
+      - mongo:/data/db/
+    ports:
+      - "27017:27017"
+
+volumes:
+  mongo:
