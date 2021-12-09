@@ -6,6 +6,6 @@ RUN pip install -r requirements.txt
 
 ADD templates ./templates/
 
-ADD app.py .
+ADD app_distribute.py .
 
 CMD ["python", "app.py"]
