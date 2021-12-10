@@ -1,5 +1,6 @@
 # docker
-도커의 개념이해
-도커 이미지
-도커를 사용하는 방법
-도커의 기본 명령어
+도커의 개념
+기본 명령어, 이미지 빌드, 이미지 실행
+이미지 공유, named volume, bind mount
+Network, Comepose
+배포하기, github action을 이용한 CI/CD에 대한 실습을 기록합니다.
